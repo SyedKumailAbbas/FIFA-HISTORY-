@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/football-balls-flying-fire-background_1441-3921.jpg?w=1060&t=st=1687442078~exp=1687442678~hmac=5a78eac70412b3357837c7f7eb1ad34c83fec04b9726522b495e5ef67aacbb4f");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading{
+    font-family:cursive;
+    font-weight:bolder;
+    color: white;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: blue;
+}
+.card {
+    width: 25rem;
+}
+#year{
+    border-radius: 10px;
+    width: 20em;
+}
+
+.searchdiv {
+    margin: 2em;
+}
+
+.wincard {
+    background-color: rgba(48, 50, 48, 0.8);
+    background-blend-mode:color-burn;
+    color: white;
+}
+
+.runcard {
+    background-color: rgb(247, 7, 7, 0.5);
+    color: white;
+}
+
+.host {
+
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.scard {
+    background-color: rgba(164, 164, 230, 0.5);
+}
+
+.hcard {
+    background-color: rgba(187, 234, 234, 0.5);
+
+}
+
+.container-fluid {
+    background-color: black
+}
+
+.searchdiv {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+#winner {
+    display: flex;
+    justify-content: center;
+}
+
+#runner {
+    display: flex;
+    justify-content: center;
+    margin: top 1em;
+    flex-wrap: wrap;
+}
+
+.list-group-item {
+    background-color: transparent;
+
+}
+
+.li1 {
+    color: black;
+    font-weight: bold;
+}
+
+.li2 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: rgb(238, 228, 228);
+    font-weight: bolder;
+}
