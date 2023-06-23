@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #heading{
     font-family:cursive;
     font-weight:bolder;
@@ -11,8 +12,16 @@ body {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: blue;
 }
+@keyframes animate {
+    
+        from {opacity: 0;}
+        to {opacity: 1;}
+
+}
 .card {
     width: 25rem;
+    animation: animate 2s;
+ 
 }
 #year{
     border-radius: 10px;
@@ -27,6 +36,9 @@ body {
     background-color: rgba(48, 50, 48, 0.8);
     background-blend-mode:color-burn;
     color: white;
+    box-shadow: 10px 10px 5em 0.5em #95daaa;
+
+    
 }
 
 .runcard {
@@ -62,6 +74,7 @@ body {
 #winner {
     display: flex;
     justify-content: center;
+
 }
 
 #runner {
