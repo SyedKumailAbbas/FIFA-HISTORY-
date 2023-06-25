@@ -1,7 +1,8 @@
 body {
     background-image: url("https://img.freepik.com/free-vector/football-balls-flying-fire-background_1441-3921.jpg?w=1060&t=st=1687442078~exp=1687442678~hmac=5a78eac70412b3357837c7f7eb1ad34c83fec04b9726522b495e5ef67aacbb4f");
-    background-repeat: no-repeat;
-    background-size: cover;
+/* background-repeat:initial; */
+    background-size:cover;
+     
 }
 
 #heading{
